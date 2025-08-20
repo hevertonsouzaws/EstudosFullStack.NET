@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\PrimeiroPrograma\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6460CC18-8BA4-4EE4-AF66-7E60295C04EE}|PrimeiroPrograma\\PrimeiroPrograma.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\primeiroprograma\\primeiroprograma\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6460CC18-8BA4-4EE4-AF66-7E60295C04EE}|PrimeiroPrograma\\PrimeiroPrograma.csproj|solutionrelative:primeiroprograma\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6460CC18-8BA4-4EE4-AF66-7E60295C04EE}|PrimeiroPrograma\\PrimeiroPrograma.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\primeiroprograma\\primeiroprograma\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6460CC18-8BA4-4EE4-AF66-7E60295C04EE}|PrimeiroPrograma\\PrimeiroPrograma.csproj|solutionrelative:primeiroprograma\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6460CC18-8BA4-4EE4-AF66-7E60295C04EE}|PrimeiroPrograma\\PrimeiroPrograma.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\primeiroprograma\\primeiroprograma\\conversordemoeda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6460CC18-8BA4-4EE4-AF66-7E60295C04EE}|PrimeiroPrograma\\PrimeiroPrograma.csproj|solutionrelative:primeiroprograma\\conversordemoeda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6460CC18-8BA4-4EE4-AF66-7E60295C04EE}|PrimeiroPrograma\\PrimeiroPrograma.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\primeiroprograma\\primeiroprograma\\aprendiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6460CC18-8BA4-4EE4-AF66-7E60295C04EE}|PrimeiroPrograma\\PrimeiroPrograma.csproj|solutionrelative:primeiroprograma\\aprendiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConversorDeMoeda.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\PrimeiroPrograma\\PrimeiroPrograma\\ConversorDeMoeda.cs",
+              "RelativeDocumentMoniker": "PrimeiroPrograma\\ConversorDeMoeda.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\PrimeiroPrograma\\PrimeiroPrograma\\ConversorDeMoeda.cs",
+              "RelativeToolTip": "PrimeiroPrograma\\ConversorDeMoeda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T13:03:15.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\PrimeiroPrograma\\PrimeiroPrograma\\Produto.cs",
+              "RelativeDocumentMoniker": "PrimeiroPrograma\\Produto.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\PrimeiroPrograma\\PrimeiroPrograma\\Produto.cs",
+              "RelativeToolTip": "PrimeiroPrograma\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T11:17:25.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Aprendiz.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\PrimeiroPrograma\\PrimeiroPrograma\\Aprendiz.cs",
+              "RelativeDocumentMoniker": "PrimeiroPrograma\\Aprendiz.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\PrimeiroPrograma\\PrimeiroPrograma\\Aprendiz.cs",
+              "RelativeToolTip": "PrimeiroPrograma\\Aprendiz.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T17:15:37.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\PrimeiroPrograma\\PrimeiroPrograma\\Program.cs",
+              "RelativeDocumentMoniker": "PrimeiroPrograma\\Program.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\PrimeiroPrograma\\PrimeiroPrograma\\Program.cs",
+              "RelativeToolTip": "PrimeiroPrograma\\Program.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAgwPEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T12:21:14.199Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
