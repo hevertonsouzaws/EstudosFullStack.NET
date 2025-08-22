@@ -237,6 +237,19 @@ namespace Program
 
             Console.Write("Valor a ser pago: " + conversor.ValorFinal.ToString("F2"));*/
 
+            //Encapsulamento na classe produto 
+            
+            Produto p = new Produto("TV", 500.00, 10);
+            Console.WriteLine(p.Descricao);
+            Console.WriteLine(p);
+
+            p.Descricao = "TV 4K";
+
+            Console.WriteLine(p.Descricao);
+            Console.WriteLine(p);
+
+
+
 
         }
 

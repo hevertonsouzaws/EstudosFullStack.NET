@@ -2,42 +2,80 @@
 {
     internal class Produto
     {
-        public string Descrição;
-        public double Preco;
-        public int Quantidade;
+        private string _descricao;
+        private double _preco;
+        private int _quantidade;
 
-        /* Construtor
-        public Produto(string nome, double preco, int quantidade)
+   
+        public Produto(string descricao, double preco, int quantidade)
         {
-            nome = nome;
-            Preco = preco;
-            Quantidade = quantidade;
-        } */
+            _descricao = descricao;
+            _preco = preco;
+            _quantidade = quantidade;
+        }
 
         public double ValorTotalEmEstoque()
         {
-            return Preco * Quantidade;
+            return _preco * _quantidade;
         }
 
         public void AdicionarProduto(int quantidade)
         {
-            Quantidade += quantidade;
+            _quantidade += quantidade;
         }
 
         public void RemoverProduto(int quantidade)
         {
-            Quantidade -= quantidade;
+            _quantidade -= quantidade;
         }
 
+        // Get e set sem propiedades
+        /*
+        public string GetDescricao()
+        {
+            return _descricao;
+        }
+
+        public void SetDescricao(string descricao)
+        {
+            if (descricao != null && descricao.Length > 1 )
+            {
+                _descricao = descricao;
+            } 
+        } */
+
+        //Get e Set com propiedade
+
+        public string Descricao 
+        {
+            get { return _descricao; }
+            set
+            {
+                if (value != null && value.Length > 1)
+                {
+                    _descricao = value;
+                }
+            }
+        }
+
+        public double Preco
+        {
+            get { return _preco; }
+        }
+
+        public int Quantidade
+        {
+            get { return _quantidade; }
+        }
 
         // Método para exibir as informações do produto 
         public override string ToString()
         {
-            return Descrição 
+            return _descricao 
                 + "\n | preço: R$ " 
-                + Preco.ToString("F2")
+                + _preco.ToString("F2")
                 + "\n | estoque: "
-                + Quantidade
+                + _quantidade
                 + "\n | valor total: R$ "
                 + ValorTotalEmEstoque();
         }

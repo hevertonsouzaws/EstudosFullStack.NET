@@ -12,3 +12,4 @@ C:\Users\74841\source\repos\EstudosFullStcak.NET\PrimeiroPrograma\PrimeiroProgra
 C:\Users\74841\source\repos\EstudosFullStcak.NET\PrimeiroPrograma\PrimeiroPrograma\obj\Debug\net8.0\PrimeiroPrograma.pdb
 C:\Users\74841\source\repos\EstudosFullStcak.NET\PrimeiroPrograma\PrimeiroPrograma\obj\Debug\net8.0\PrimeiroPrograma.genruntimeconfig.cache
 C:\Users\74841\source\repos\EstudosFullStcak.NET\PrimeiroPrograma\PrimeiroPrograma\obj\Debug\net8.0\ref\PrimeiroPrograma.dll
+C:\Users\74841\source\repos\EstudosFullStcak.NET\PrimeiroPrograma\PrimeiroPrograma\obj\Debug\net8.0\PrimeiroPrograma.sourcelink.json
