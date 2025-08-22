@@ -3,34 +3,37 @@
     internal class Produto
     {
         private string _descricao;
-        private double _preco;
-        private int _quantidade;
-
+        public double Preco { get; private set; }
+        public int Quantidade { get; private set; }
    
+        
         public Produto(string descricao, double preco, int quantidade)
         {
             _descricao = descricao;
-            _preco = preco;
-            _quantidade = quantidade;
+            Preco = preco;
+            Quantidade = quantidade;
         }
 
+
+        // Sem auto implementar
+       
         public double ValorTotalEmEstoque()
         {
-            return _preco * _quantidade;
+            return Preco * Quantidade;
         }
 
         public void AdicionarProduto(int quantidade)
         {
-            _quantidade += quantidade;
+            Quantidade += quantidade;
         }
 
         public void RemoverProduto(int quantidade)
         {
-            _quantidade -= quantidade;
+            Quantidade -= quantidade;
         }
 
         // Get e set sem propiedades
-        /*
+
         public string GetDescricao()
         {
             return _descricao;
@@ -42,7 +45,7 @@
             {
                 _descricao = descricao;
             } 
-        } */
+        }
 
         //Get e Set com propiedade
 
@@ -58,24 +61,16 @@
             }
         }
 
-        public double Preco
-        {
-            get { return _preco; }
-        }
-
-        public int Quantidade
-        {
-            get { return _quantidade; }
-        }
-
+        
+       
         // Método para exibir as informações do produto 
         public override string ToString()
         {
             return _descricao 
                 + "\n | preço: R$ " 
-                + _preco.ToString("F2")
+                + Preco.ToString("F2")
                 + "\n | estoque: "
-                + _quantidade
+                + Quantidade
                 + "\n | valor total: R$ "
                 + ValorTotalEmEstoque();
         }
