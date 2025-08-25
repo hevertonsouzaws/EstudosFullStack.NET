@@ -2,7 +2,7 @@
   <div>
     <h1>Olá Vue!</h1>
     <p>Meu nome é: {{ nome }}</p>
-    <p>E trabalho como: {{profissao}}</p>
+    <p>E trabalho como: {{ profissao }}</p>
   </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
     return {
       nome: "Heverton",
       profissao: "Dev WS"
-    };
-  },
+    }
+  }
 };
 </script>
