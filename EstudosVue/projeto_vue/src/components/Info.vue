@@ -4,7 +4,7 @@
         <p v-else>Estou em busca de novas oportunidades!</p>
         <p>Utilizo as seguintes tecnologias para back-end:</p>
         <ul>
-            <li v-for="technology in backend_technologies">
+            <li v-for="(technology, index) in backend_technologies" v-bind:key="index">
                 {{ technology }}
             </li>
         </ul>
@@ -33,12 +33,13 @@ export default {
     components: {
         Picture
     },
-
+    props: {
+        email: String,
+        esta_trabalhando: Boolean
+    },
     data() {
         return {
-            esta_trabalhando: false,
             mostrar_email: false,
-            email: 'heverton.souza@gmail.com',
             meu_link: 'https://www.websupply.com.br/#!home',
             textoBotao: 'Mostrar e-mail',
             backend_technologies: ["JavaScript", ".NET", "C#"],

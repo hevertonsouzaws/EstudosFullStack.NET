@@ -1,10 +1,12 @@
 <template>
   <div>
-    <Header />
+    <Header :esta_logado="true" />
     <PrimeiroComponente />
     <LifeCycle />
     <Pessoa />
     <MultiplosEventos />
+    <Reutilizacao />
+    <MudarImagem />
   </div>
 </template>
 
@@ -15,6 +17,8 @@ import LifeCycle from './components/LifeCycle.vue'
 import Pessoa from './components/Pessoa.vue'
 import Header from './components/Header.vue';
 import MultiplosEventos from './components/MultiplosEventos.vue';
+import Reutilizacao from './components/Reutilizacao.vue';
+import MudarImagem from './components/MudarImagem.vue';
 
 export default {
   name: 'App',
@@ -23,14 +27,16 @@ export default {
     PrimeiroComponente,
     LifeCycle,
     Pessoa,
-    MultiplosEventos
+    MultiplosEventos,
+    Reutilizacao,
+    MudarImagem
   }
 }
 </script>
 
 <style>
 * {
-  padding: 0;
+  padding: 10px;
   margin: 0;
   color: #fff;
 }
@@ -40,7 +46,24 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body ul, li{
+body ul,
+li {
   list-style: none;
+  text-decoration: none;
+}
+
+button {
+  background-color: rgb(235, 235, 253);
+  border: 1px solid black;
+  color: black;
+  padding: 8px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+button:hover {
+  background: linear-gradient(180.73deg, #453bce -51.9%, #162568 131.43%, #1b28b4 131.45%);
+  color: white;
+  border: none;
 }
 </style>

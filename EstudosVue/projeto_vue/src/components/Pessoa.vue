@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>Dados do: {{ nome }}</h2>
-    <Info />
+    <Info :email="email" :esta_trabalhando="true"/>
     <Form />
   </div>
 </template>
@@ -11,14 +11,15 @@ import Form from './Form.vue';
 import Info from './Info.vue';
 
 export default {
-  name: 'Lyfecycle2',
+  name: 'Pessoa',
   components: {
     Info,
     Form
   },
   data() {
     return {
-      nome: 'Heverton'
+      nome: 'Heverton',
+      email: 'somosws@gmail.com',
     }
   }
 }

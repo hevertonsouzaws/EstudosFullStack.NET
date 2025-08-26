@@ -29,19 +29,5 @@ div {
     margin: 150px;
 }
 
-button {
-    background-color: rgb(235, 235, 253);
-    border: 1px solid black;
-    color: black;
-    padding: 8px;
-    border-radius: 5px;
-    padding: 20px;
-}
-
-button:hover {
-    background: linear-gradient(180.73deg, #453bce -51.9%, #162568 131.43%, #1b28b4 131.45%);
-    color: white;
-}
-
 </style>
 
