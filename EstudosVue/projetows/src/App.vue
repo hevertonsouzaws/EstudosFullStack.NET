@@ -32,9 +32,10 @@ export default {
   box-sizing: border-box;
 }
 
-.main-container{
+
+.main-container {
   margin: 50px;
-  min-height: 250px;
+  min-height: 580px;
 }
 
 h1 {
@@ -43,4 +44,6 @@ h1 {
   margin-bottom: 30px;
   color: #222;
 }
+
+
 </style>

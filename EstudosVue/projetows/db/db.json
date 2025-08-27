@@ -16,6 +16,10 @@
       {
         "id": 4,
         "tipo": "Integral"
+      },
+      {
+        "id": 5,
+        "tipo": "Pão WS"
       }
     ],
     "carnes": [
@@ -54,28 +58,169 @@
         "tipo": "Tomate"
       },
       {
-        "id": 4,
+        "id": 5,
         "tipo": "Cebola roxa"
       },
       {
-        "id": 4,
+        "id": 6,
         "tipo": "Pepino"
       }
     ]
   },
   "status": [
     {
-      "id": 1,
+      "id": "1",
       "tipo": "Solicitado"
     },
     {
-      "id": 2,
+      "id": "2",
       "tipo": "Em produção"
     },
     {
-      "id": 3,
+      "id": "3",
       "tipo": "Finalizado"
     }
   ],
-  "burgers": []
+  "burgers": [
+    {
+      "id": "3955",
+      "nome": "Somos WS",
+      "carne": "Alcatra",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Cheddar"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "2184",
+      "nome": "Websupply",
+      "carne": "Veggie burger",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Salame",
+        "Cebola roxa"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "7442",
+      "nome": "Rafaela Leite",
+      "carne": "Veggie burger",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Cheddar"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "4808",
+      "nome": "Marcos WS",
+      "carne": "Alcatra",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Bacon",
+        "Salame"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "9d5a",
+      "nome": "Garbin WS",
+      "carne": "Alcatra",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Cheddar",
+        "Bacon",
+        "Tomate",
+        "Salame",
+        "Cebola roxa"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "ce07",
+      "nome": "Heveton Souza",
+      "carne": "Alcatra",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Salame"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "0638",
+      "nome": "Breno WS",
+      "carne": "Veggie burger",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Cheddar"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "7972",
+      "nome": "Regis WS",
+      "carne": "Alcatra",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Cebola roxa",
+        "Bacon"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "9b26",
+      "nome": "Hitalo WS",
+      "carne": null,
+      "opcionais": [],
+      "status": "Solicitado"
+    },
+    {
+      "id": "64f4",
+      "nome": "Heveton Souza",
+      "carne": null,
+      "pao": "3 Queijos",
+      "opcionais": [],
+      "status": "Solicitado"
+    },
+    {
+      "id": "9a35",
+      "nome": "Heveton Souza",
+      "carne": null,
+      "pao": "",
+      "opcionais": [],
+      "status": "Solicitado"
+    },
+    {
+      "id": "bc75",
+      "nome": "Somos WS",
+      "carne": null,
+      "opcionais": [],
+      "status": "Solicitado"
+    },
+    {
+      "id": "a4d7",
+      "nome": "Somos WS",
+      "carne": null,
+      "pao": "Integral",
+      "opcionais": [
+        "Tomate"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "40d7",
+      "nome": "Aline ",
+      "carne": "Alcatra",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Cheddar"
+      ],
+      "status": "Solicitado"
+    }
+  ]
 }
