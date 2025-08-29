@@ -1,16 +1,17 @@
 <template>
-    <Message :msg="msg" v-show="msg" />
-    <div>
+    
+    <div class="container-form">
+        <Message :msg="msg" v-show="msg" />
+        <h1>Monte seu Burger</h1>
         <form id="burger-form" method="POST" @submit="createBurger">
             <div class="input-container">
                 <label for="nome">Nome do cliente</label>
-                <input type="text" id="nome" name="nome" v-model="nome" placeholder="Digite o sue nome">
+                <input type="text" id="nome" name="nome" v-model="nome" placeholder="Digite o seu nome">
             </div>
 
             <div class="input-container">
                 <label for="pao">Escolha o pão:</label>
                 <select name="pao" id="pao" v-model="pao">
-                    <option value="">Selecione o seu pão:</option>
                     <option v-for="pao in paes" :key="pao.id" :value="pao.tipo">{{ pao.tipo }}</option>
                 </select>
             </div>
@@ -34,7 +35,15 @@
             <div class="input-container">
                 <input type="submit" class="submit-btn" value="Criar meu Burguer!">
             </div>
+
         </form>
+        <div id="btn-container">
+            <button class="pedidos-btn">
+                <a href="http://localhost:8080/pedidos">
+                    <p>Ver Pedidos</p>
+                </a>
+            </button>
+        </div>
     </div>
 </template>
 
@@ -117,34 +126,62 @@ export default {
 </script>
 
 <style scoped>
+.container-form {
+    width: 100%;
+    border: 1px solid;
+    margin: auto;
+    padding: 20px 20px;
+    border-top: 10px solid #fcba03;
+}
+
+h1 {
+    color: #fcba03;
+}
+
 #burger-form {
-    max-width: 350px;
-    margin: 0 auto;
+    max-width: 380px;
+    margin: 10px auto;
     border: 2px solid #fcba03;
     padding: 20px;
     border-radius: 25px;
+    color: #fff;
+    ;
 
 }
 
 .input-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 label {
     font-weight: bold;
     margin-bottom: 15px;
-    color: #222;
-    ;
     padding: 5px 10px;
     border-left: 4px solid #fcba03;
 }
 
 input,
-select {
-    padding: 5px 10px;
-    width: 300px;
+select,
+.pedidos-btn {
+    padding: 8px 10px;
+    width: 330px;
+    background-color: #fcba0313;
+    border-radius: 8px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+select option {
+    background-color: #222;
+}
+
+input:hover,
+select:hover
+ {
+    border: 1px solid #fcba03;
 }
 
 #opcionais-container {
@@ -174,23 +211,48 @@ select {
 }
 
 .submit-btn {
-    background-color: #222;
-    color: #fcba03;
+    background-color: #fcba03;
+    border: 2px solid #fcba03;
+    color: #222;
     font-weight: bold;
-    border: 2px solid #222;
     padding: 10px;
     font-size: 16px;
     margin: 0 auto;
-    cursor: pointer;
-    transition: .5s;
-}
-
-.submit-btn {
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .submit-btn:hover {
     background-color: transparent;
+    color: #fcba03;
+    transition: .5s;
+    border: 2px solid #fcba03;
+}
+
+#btn-container {
+    text-align: center;
+}
+
+.pedidos-btn {  
+    background-color: #222;
+    margin: 12px;
+    transition: .5s;
+    font-size: 18px;
+    border: 1px solid #FCBA03;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.pedidos-btn a {
+    text-decoration: none;
     color: #222;
+    color: #FFF;
+}
+
+.pedidos-btn:hover,
+.pedidos-btn a:hover {
+    background-color: #fcba0334;
+    transition: .5s;
+    border: 1px solid #fcba03;
 }
 </style>

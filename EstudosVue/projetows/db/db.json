@@ -83,144 +83,32 @@
   ],
   "burgers": [
     {
-      "id": "3955",
-      "nome": "Somos WS",
-      "carne": "Alcatra",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Cheddar"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "2184",
-      "nome": "Websupply",
-      "carne": "Veggie burger",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Salame",
-        "Cebola roxa"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "7442",
-      "nome": "Rafaela Leite",
-      "carne": "Veggie burger",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon",
-        "Cheddar"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "4808",
-      "nome": "Marcos WS",
-      "carne": "Alcatra",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Bacon",
-        "Salame"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "9d5a",
-      "nome": "Garbin WS",
-      "carne": "Alcatra",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Cheddar",
-        "Bacon",
-        "Tomate",
-        "Salame",
-        "Cebola roxa"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "ce07",
+      "id": "51a0",
       "nome": "Heveton Souza",
       "carne": "Alcatra",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Salame"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "0638",
-      "nome": "Breno WS",
-      "carne": "Veggie burger",
       "pao": "3 Queijos",
-      "opcionais": [
-        "Bacon",
-        "Cheddar"
-      ],
-      "status": "Solicitado"
+      "opcionais": [],
+      "status": "Em produção"
     },
     {
-      "id": "7972",
-      "nome": "Regis WS",
+      "id": "c224",
+      "nome": "Somos WS",
       "carne": "Alcatra",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Cebola roxa",
-        "Bacon"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "9b26",
-      "nome": "Hitalo WS",
-      "carne": null,
-      "opcionais": [],
-      "status": "Solicitado"
-    },
-    {
-      "id": "64f4",
-      "nome": "Heveton Souza",
-      "carne": null,
-      "pao": "3 Queijos",
-      "opcionais": [],
-      "status": "Solicitado"
-    },
-    {
-      "id": "9a35",
-      "nome": "Heveton Souza",
-      "carne": null,
-      "pao": "",
-      "opcionais": [],
-      "status": "Solicitado"
-    },
-    {
-      "id": "bc75",
-      "nome": "Somos WS",
-      "carne": null,
-      "opcionais": [],
-      "status": "Solicitado"
-    },
-    {
-      "id": "a4d7",
-      "nome": "Somos WS",
-      "carne": null,
       "pao": "Integral",
       "opcionais": [
+        "Bacon",
+        "Salame",
         "Tomate"
       ],
-      "status": "Solicitado"
+      "status": "Finalizado"
     },
     {
-      "id": "40d7",
-      "nome": "Aline ",
+      "id": "f583",
+      "nome": "Rafaela Leite",
       "carne": "Alcatra",
       "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon",
-        "Cheddar"
-      ],
-      "status": "Solicitado"
+      "opcionais": [],
+      "status": "Finalizado"
     }
   ]
 }

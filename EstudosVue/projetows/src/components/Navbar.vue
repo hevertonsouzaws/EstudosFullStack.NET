@@ -1,10 +1,17 @@
 <template>
     <div id="nav">
-        <router-link to="/" id="logo-url">
-            <img :src="logo" :alt="alt" id="logo">
-        </router-link>
-        <router-link to="/">Home</router-link>
-        <router-link to="/pedidos">Pedidos</router-link>
+        <div>
+            <router-link class="router" to="/">Home</router-link>
+        </div>
+        <div id="logo">
+            <router-link to="/" id="logo-url">
+                <img :src="logo" :alt="alt">
+                <p>BURGER WS</p>
+            </router-link>
+        </div>
+        <div>
+            <router-link class="router" to="/pedidos">Pedidos</router-link>
+        </div>
     </div>
 </template>
 
@@ -18,31 +25,52 @@ export default {
 <style scoped>
 #nav {
     background-color: #222;
-    border-bottom: 4px solid #111;
+    border-bottom: 4px solid #FCBA03;
     padding: 15px 20px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
-#nav #logo-url {
-    margin: auto;
-    margin-left: 0;
+#nav div {
+    padding: 0 80px;
 }
 
 #logo {
-    width: 50px;
-    height: 50px;
+    text-align: center;
+}
+
+#logo p {
+    color: #FCBA03;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 34px;
+}
+
+#logo img {
+    width: 80px;
+    height: 80px;
+    text-align: center;
 }
 
 #nav a {
-    color: #FCBA03;
     text-decoration: none;
-    margin: 12px;
-    transition: .5S;
 }
 
-#nav a:hover {
-    color: #fff;
+.router {
+    color: #FFF;
+    margin: 12px;
+    transition: .5s;
+    font-size: 18px;
+    border: 1px solid #FCBA03;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+
+.router:hover {
+    border: 1px solid #fc7303;
+    border-radius: 15px;
+    padding: 10px 20px;
+    transition: .5s;
 }
 </style>

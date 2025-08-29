@@ -18,7 +18,7 @@ export default {
 <style acoped>
 .message-container {
     color: #004085;
-    background-color: #ccffd9;
+    background-color: #ccffd941;
     border: 2px solid #3cff00;
     padding: 10px;
     border-radius: 10px;

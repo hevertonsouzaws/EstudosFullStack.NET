@@ -1,5 +1,6 @@
 <template>
   <div id="burger-table">
+    <Message :msg="msg" v-show="msg" />
     <div>
       <div id="burger-table-heading">
         <div class="order-id">#:</div>
@@ -21,13 +22,12 @@
             </ul>
           </div>
           <div>
-            <select name="status" class="status">
-              <option value="">Selecione</option>
-              <option v-for="s in status" :key="s.id" value="s.tipo" :selected="burger.status == s.tipo">
+            <select name="status" class="status" @change="updateBurger($event, burger.id)">
+              <option :value="s.tipo" v-for="s in status" :key="s.id" :selected="burger.status == s.tipo">
                 {{ s.tipo }}
               </option>
             </select>
-            <button class="delete-btn">Cancelar</button>
+            <button class="delete-btn" @click="deleteBurger(burger.id)">Cancelar</button>
           </div>
         </div>
       </div>
@@ -36,14 +36,20 @@
 </template>
 
 <script>
+import Message from './Message.vue';
+
 export default {
   name: 'Dashboard',
   data() {
     return {
       burgers: null,
       burger_id: null,
-      status: []
+      status: [],
+      msg: null
     }
+  },
+  components: {
+    Message
   },
   methods: {
     async getPedidos() {
@@ -57,7 +63,7 @@ export default {
       // resgatar status
       this.getStatus();
 
-      
+
     },
     async getStatus() {
 
@@ -66,7 +72,38 @@ export default {
       const data = await req.json();
 
       this.status = data;
-    }
+    },
+    async deleteBurger(id) {
+      const req = await fetch(`http://localhost:3000/burgers/${id}`, {
+        method: "DELETE"
+      });
+
+      const res = await req.json();
+
+      // msg do pedido deletado
+      this.msg = `Pedido Nº${res.id} removido com sucesso!`
+      setTimeout(() => this.msg = "", 3000)
+
+      this.getPedidos();
+    },
+    async updateBurger(event, id) {
+      const option = event.target.value;
+
+      const dataJson = JSON.stringify({ status: option });
+
+      // Acesso ao pedido pelo ID
+      // PATCH atualiza apenas a informação selcionada (status)
+      const req = await fetch(`http://localhost:3000/burgers/${id}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: dataJson
+      });
+
+      const res = await req.json();
+
+      this.msg = `Pedido Nº${res.id} foi atualizado para ${res.status} !`
+      setTimeout(() => this.msg = "", 3000)
+    },
   },
   mounted() {
     this.getPedidos();
@@ -78,11 +115,12 @@ export default {
 <style scoped>
 #burger-table {
   max-width: 1400px;
+  min-height: 700px;
   margin: 0 auto;
-  border: 2px solid #222;
+  border: 2px solid #c79200;
   padding: 20px;
   border-radius: 15px;
-  background-color: #0a0a0511;
+  color: #fff;
 }
 
 
@@ -122,17 +160,17 @@ select {
   padding: 10px 8px;
   margin-right: 12px;
   border-radius: 10px;
-  border: 2px solid #222;
+  border: 1px solid #fcba03;
   cursor: pointer;
-  background-color: #222222e8;
-  color: #fcba03;
+  background-color: #434405e0;
+  color: #fff;
   font-size: 16px;
 }
 
 .delete-btn {
   background-color: #440505e0;
-  color: #fcba03;
-  border: 2px solid #222;
+  color: #fff;
+  border: 1px solid #fcba03;
   padding: 10px 15px;
   font-size: 16px;
   margin: 0 auto;
@@ -143,6 +181,6 @@ select {
 
 .delete-btn:hover {
   color: #fff;
-  border: 2px solid #ff0000;
+  border: 1px solid #fff;
 }
 </style>

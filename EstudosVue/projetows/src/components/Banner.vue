@@ -29,6 +29,9 @@ export default {
     font-size: 80px;
     padding: 20px 40px;
     background-color: #222;
+    border-bottom: 2px solid YELLOW;
+    border-right: 5px solid yellow;
+    ;
 }
 
 
