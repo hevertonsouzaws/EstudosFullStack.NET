@@ -63,7 +63,6 @@ export default {
       // resgatar status
       this.getStatus();
 
-
     },
     async getStatus() {
 

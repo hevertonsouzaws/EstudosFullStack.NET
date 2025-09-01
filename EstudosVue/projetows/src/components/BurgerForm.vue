@@ -1,5 +1,5 @@
 <template>
-    
+
     <div class="container-form">
         <Message :msg="msg" v-show="msg" />
         <h1>Monte seu Burger</h1>
@@ -24,7 +24,7 @@
                 </select>
             </div>
 
-            <div class="input-container">
+            <div id="opcionais-container" class="input-container">
                 <label id="opcionais-title" for="opcionais">Selecione os opcionais:</label>
                 <div class="checkbox-container" v-for="opcional in opcionaisdata" :key="opcional.id">
                     <input type="checkbox" name="opcionais" v-model="opcionais" :value="opcional.tipo">
@@ -59,8 +59,10 @@ export default {
             carnes: null,
             opcionaisdata: null,
             nome: null,
+            pao: null,
             carne: null,
             opcionais: [],
+            status: "Solicitado",
             msg: null
         }
     },
@@ -91,7 +93,7 @@ export default {
 
             const req = await fetch("http://localhost:3000/burgers", {
                 method: "POST",
-                headers: { "Content-Type": "application/json" },
+                headers: { "Content-Type" : "application/json" },
                 body: dataJson
             });
 
@@ -109,7 +111,7 @@ export default {
             this.nome = "";
             this.carne = "";
             this.pao = "";
-            this.opcionais = "";
+            this.opcionais = []
         }
 
     },
@@ -179,8 +181,7 @@ select option {
 }
 
 input:hover,
-select:hover
- {
+select:hover {
     border: 1px solid #fcba03;
 }
 
@@ -233,7 +234,7 @@ select:hover
     text-align: center;
 }
 
-.pedidos-btn {  
+.pedidos-btn {
     background-color: #222;
     margin: 12px;
     transition: .5s;
