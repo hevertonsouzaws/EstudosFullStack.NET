@@ -1,0 +1,71 @@
+[
+  {
+    "ContainingType": "MeuTodo.Controllers.TodoController",
+    "Method": "PostAsync",
+    "RelativePath": "v1/todos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "AulaBaltaApi.ViewModels.CreateTodoViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MeuTodo.Controllers.TodoController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "v1/todos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MeuTodo.Controllers.TodoController",
+    "Method": "PutAsync",
+    "RelativePath": "v1/todos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "AulaBaltaApi.ViewModels.CreateTodoViewModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MeuTodo.Controllers.TodoController",
+    "Method": "DeleteAsync",
+    "RelativePath": "v1/todos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

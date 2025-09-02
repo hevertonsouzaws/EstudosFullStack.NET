@@ -238,7 +238,7 @@ namespace Program
             Console.Write("Valor a ser pago: " + conversor.ValorFinal.ToString("F2"));*/
 
             //Encapsulamento na classe produto 
-            
+            /*
             Produto p = new Produto("TV", 500.00, 10);
             Console.WriteLine(p.Descricao);
             Console.WriteLine(p);
@@ -246,12 +246,84 @@ namespace Program
             p.Descricao = "TV 4K";
 
             Console.WriteLine(p.Descricao);
-            Console.WriteLine(p);
+            Console.WriteLine(p);*/
 
+            // Listas
+           /*
+            List<string> list = new List<string>();
+
+            list.Add("Heverton Souza");
+            list.Add("Inpulsionando o futuro!");
+            list.Insert(2, "Unidos pela inovação");
+            list.Insert(1, "#SomosWS");
+            list.Add("#Supplyy");
+
+            foreach (var nome in list) { 
+            Console.WriteLine(nome);
+            }
+
+            Console.WriteLine("List count: " + list.Count);
+
+            // Consulta na lista com Lambda
+
+            // Primeira ocorrencia
+            string primeiro = list.Find(x => x[1] == 'S');
+            Console.WriteLine(primeiro);
+
+            // Ultima ocorrencia 
+            string ultimo = list.FindLast(x => x[1] == 'S');
+            Console.WriteLine(ultimo);
+
+            // Primeira posição com index
+            int pos1 = list.FindIndex(x => x[1] == 'S');
+            Console.WriteLine(pos1);
+
+            // Ultima posição com index
+            int pos2 = list.FindLastIndex(x => x[1] == 'S');
+            Console.WriteLine(pos2);
+
+            // Filtro de lista
+            List<string> list2 = list.FindAll(x => x.Length == 8);
+            Console.WriteLine("----------------------------");
+            foreach (string obj in list2) { 
+            Console.WriteLine(obj); 
+            }
+
+            Console.WriteLine("----------------------------");
+
+            // Remover algo da lista
+            list.Remove("Heverton Souza");
+            foreach (string obj in list2)
+            {
+                Console.WriteLine(obj);
+            }
+
+            Console.WriteLine("----------------------------");
+            list.Add("Dev Tom");
+
+            // Remover tudo que seja igual a condição
+            list.RemoveAll(x => x[0] == '#');
+            foreach (string obj in list)
+            {
+                Console.WriteLine(obj);
+            }
+
+            Console.WriteLine("----------------------------");
+
+            // Remover algo de acordo com a posição 
+            list.RemoveAt(2);
+            foreach (string obj in list)
+            {
+                Console.WriteLine(obj);
+            }*/
+
+            //DateTime
+
+            DateTime hora = DateTime.Now;
+            Console.WriteLine(hora);
 
 
 
         }
-
     }
 }
