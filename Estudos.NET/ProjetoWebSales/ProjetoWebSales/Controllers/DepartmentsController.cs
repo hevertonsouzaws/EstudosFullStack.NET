@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using ProjetoWebSales.Models;
 
-namespace ProjetoWebSales.Controllers
+namespace SalesWebMvc.Controllers
 {
     public class DepartmentsController : Controller
     {
@@ -44,8 +44,7 @@ namespace ProjetoWebSales.Controllers
         }
 
         // POST: Departments/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name")] Department department)
@@ -75,9 +74,7 @@ namespace ProjetoWebSales.Controllers
             return View(department);
         }
 
-        // POST: Departments/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Departments
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] Department department)
@@ -110,7 +107,7 @@ namespace ProjetoWebSales.Controllers
             return View(department);
         }
 
-        // GET: Departments/Delete/5
+        // GET: Departments/Delete
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -128,17 +125,13 @@ namespace ProjetoWebSales.Controllers
             return View(department);
         }
 
-        // POST: Departments/Delete/5
+        // POST: Departments/Delete
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var department = await _context.Department.FindAsync(id);
-            if (department != null)
-            {
-                _context.Department.Remove(department);
-            }
-
+            _context.Department.Remove(department);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
