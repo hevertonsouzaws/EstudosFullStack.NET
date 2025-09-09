@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{62EEDB5C-C829-4AF2-9811-9C64C1025D0B}|ProjetoWebSales\\ProjetoWebSales.csproj|solutionrelative:projetowebsales\\controllers\\sellerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62EEDB5C-C829-4AF2-9811-9C64C1025D0B}|ProjetoWebSales\\ProjetoWebSales.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\projetowebsales\\projetowebsales\\views\\sellers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{62EEDB5C-C829-4AF2-9811-9C64C1025D0B}|ProjetoWebSales\\ProjetoWebSales.csproj|solutionrelative:projetowebsales\\views\\sellers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{62EEDB5C-C829-4AF2-9811-9C64C1025D0B}|ProjetoWebSales\\ProjetoWebSales.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\projetowebsales\\projetowebsales\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62EEDB5C-C829-4AF2-9811-9C64C1025D0B}|ProjetoWebSales\\ProjetoWebSales.csproj|solutionrelative:projetowebsales\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62EEDB5C-C829-4AF2-9811-9C64C1025D0B}|ProjetoWebSales\\ProjetoWebSales.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\projetowebsales\\projetowebsales\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{62EEDB5C-C829-4AF2-9811-9C64C1025D0B}|ProjetoWebSales\\ProjetoWebSales.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\projetowebsales\\projetowebsales\\services\\sellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62EEDB5C-C829-4AF2-9811-9C64C1025D0B}|ProjetoWebSales\\ProjetoWebSales.csproj|solutionrelative:projetowebsales\\services\\sellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62EEDB5C-C829-4AF2-9811-9C64C1025D0B}|ProjetoWebSales\\ProjetoWebSales.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\projetowebsales\\projetowebsales\\views\\sellers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62EEDB5C-C829-4AF2-9811-9C64C1025D0B}|ProjetoWebSales\\ProjetoWebSales.csproj|solutionrelative:projetowebsales\\views\\sellers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62EEDB5C-C829-4AF2-9811-9C64C1025D0B}|ProjetoWebSales\\ProjetoWebSales.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\projetowebsales\\projetowebsales\\models\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,8 +42,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\ProjetoWebSales\\ProjetoWebSales\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ProjetoWebSales\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\ProjetoWebSales\\ProjetoWebSales\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ProjetoWebSales\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-05T17:31:39.586Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -51,6 +68,19 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-05T17:03:32.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SellersController.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\ProjetoWebSales\\ProjetoWebSales\\Controllers\\SellersController.cs",
+              "RelativeDocumentMoniker": "ProjetoWebSales\\Controllers\\SellersController.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\ProjetoWebSales\\ProjetoWebSales\\Controllers\\SellersController.cs",
+              "RelativeToolTip": "ProjetoWebSales\\Controllers\\SellersController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T16:37:52.352Z",
               "EditorCaption": ""
             },
             {
@@ -68,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\ProjetoWebSales\\ProjetoWebSales\\Views\\Sellers\\Create.cshtml",
               "RelativeDocumentMoniker": "ProjetoWebSales\\Views\\Sellers\\Create.cshtml",
@@ -81,20 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SellersController.cs",
-              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\ProjetoWebSales\\ProjetoWebSales\\Controllers\\SellersController.cs",
-              "RelativeDocumentMoniker": "ProjetoWebSales\\Controllers\\SellersController.cs",
-              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\ProjetoWebSales\\ProjetoWebSales\\Controllers\\SellersController.cs*",
-              "RelativeToolTip": "ProjetoWebSales\\Controllers\\SellersController.cs*",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAAwBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T16:37:52.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Seller.cs",
               "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\ProjetoWebSales\\ProjetoWebSales\\Models\\Seller.cs",
               "RelativeDocumentMoniker": "ProjetoWebSales\\Models\\Seller.cs",
@@ -107,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DepartmentsController.cs",
               "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\ProjetoWebSales\\ProjetoWebSales\\Controllers\\DepartmentsController.cs",
               "RelativeDocumentMoniker": "ProjetoWebSales\\Controllers\\DepartmentsController.cs",
@@ -120,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "SeedingService.cs",
               "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\ProjetoWebSales\\ProjetoWebSales\\Data\\SeedingService.cs",
               "RelativeDocumentMoniker": "ProjetoWebSales\\Data\\SeedingService.cs",
