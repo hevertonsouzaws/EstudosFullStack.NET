@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DashboardWS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbeb51c12ca3b373800f408786793338465fc971")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3ecaedc53f710248547ffeb213188e6940f0319")]
 [assembly: System.Reflection.AssemblyProductAttribute("DashboardWS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DashboardWS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

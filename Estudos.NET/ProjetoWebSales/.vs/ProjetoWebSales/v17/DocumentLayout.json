@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "ProjetoWebSales\\Controllers\\SellersController.cs",
               "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\ProjetoWebSales\\ProjetoWebSales\\Controllers\\SellersController.cs",
               "RelativeToolTip": "ProjetoWebSales\\Controllers\\SellersController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB4AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-05T16:37:52.352Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "ProjetoWebSales\\Views\\Sellers\\Create.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-05T16:51:43.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T16:51:43.081Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "ProjetoWebSales\\Data\\SeedingService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T16:46:33.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T16:46:33.923Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "ProjetoWebSales\\Controllers\\DepartmentsController.cs",
               "ViewState": "AgIAAHIAAAAAAAAAAAAAwGIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T14:44:38.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T14:44:38.188Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "ProjetoWebSales\\Services\\SellerService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T12:18:35.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T12:18:35.17Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "ProjetoWebSales\\Services\\DepartmentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T17:03:32.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T17:03:32.62Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "ProjetoWebSales\\Models\\Seller.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T17:02:14.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T17:02:14.372Z"
             },
             {
               "$type": "Document",
@@ -145,8 +139,7 @@
               "RelativeToolTip": "ProjetoWebSales\\Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-05T17:31:39.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T17:31:39.586Z"
             }
           ]
         }

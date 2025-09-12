@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\statusws\\statusws\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|solutionrelative:statusws\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\statusws\\statusws\\models\\employeestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|solutionrelative:statusws\\models\\employeestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\statusws\\statusws\\models\\enums\\statustype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|solutionrelative:statusws\\models\\enums\\statustype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\statusws\\statusws\\viewmodels\\changestatusviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|solutionrelative:statusws\\viewmodels\\changestatusviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\statusws\\statusws\\viewmodels\\createemployeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|solutionrelative:statusws\\viewmodels\\createemployeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\statusws\\statusws\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|solutionrelative:statusws\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\statusws\\statusws\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|solutionrelative:statusws\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\statusws\\statusws\\statusws.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|solutionrelative:statusws\\statusws.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\statusws\\statusws\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|solutionrelative:statusws\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\statusws\\statusws\\controllers\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|solutionrelative:statusws\\controllers\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\statusws\\statusws\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|solutionrelative:statusws\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeStatus.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\Models\\EmployeeStatus.cs",
+              "RelativeDocumentMoniker": "STATUSWS\\Models\\EmployeeStatus.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\Models\\EmployeeStatus.cs",
+              "RelativeToolTip": "STATUSWS\\Models\\EmployeeStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T17:28:37.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "STATUSWS\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\Models\\Employee.cs",
+              "RelativeToolTip": "STATUSWS\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T17:18:29.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StatusType.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\Models\\Enums\\StatusType.cs",
+              "RelativeDocumentMoniker": "STATUSWS\\Models\\Enums\\StatusType.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\Models\\Enums\\StatusType.cs",
+              "RelativeToolTip": "STATUSWS\\Models\\Enums\\StatusType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T17:35:54.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChangeStatusViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\ViewModels\\ChangeStatusViewModel.cs",
+              "RelativeDocumentMoniker": "STATUSWS\\ViewModels\\ChangeStatusViewModel.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\ViewModels\\ChangeStatusViewModel.cs",
+              "RelativeToolTip": "STATUSWS\\ViewModels\\ChangeStatusViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T17:29:51.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateEmployeeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\ViewModels\\CreateEmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "STATUSWS\\ViewModels\\CreateEmployeeViewModel.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\ViewModels\\CreateEmployeeViewModel.cs",
+              "RelativeToolTip": "STATUSWS\\ViewModels\\CreateEmployeeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T17:29:36.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\appsettings.json",
+              "RelativeDocumentMoniker": "STATUSWS\\appsettings.json",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\appsettings.json",
+              "RelativeToolTip": "STATUSWS\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-12T17:19:50.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\Program.cs",
+              "RelativeDocumentMoniker": "STATUSWS\\Program.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\Program.cs",
+              "RelativeToolTip": "STATUSWS\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T17:20:27.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "STATUSWS.http",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\STATUSWS.http",
+              "RelativeDocumentMoniker": "STATUSWS\\STATUSWS.http",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\STATUSWS.http",
+              "RelativeToolTip": "STATUSWS\\STATUSWS.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-09-12T17:23:17.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "STATUSWS\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "STATUSWS\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T17:16:23.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StatusController.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\Controllers\\StatusController.cs",
+              "RelativeDocumentMoniker": "STATUSWS\\Controllers\\StatusController.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\Controllers\\StatusController.cs",
+              "RelativeToolTip": "STATUSWS\\Controllers\\StatusController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T17:27:49.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "STATUSWS\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "STATUSWS\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T17:25:24.536Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

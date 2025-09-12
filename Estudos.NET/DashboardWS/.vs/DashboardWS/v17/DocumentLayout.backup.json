@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{896FD67F-4258-4F43-A19D-A20CA10AD8EF}|DashboardWS\\DashboardWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\dashboardws\\dashboardws\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{896FD67F-4258-4F43-A19D-A20CA10AD8EF}|DashboardWS\\DashboardWS.csproj|solutionrelative:dashboardws\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{896FD67F-4258-4F43-A19D-A20CA10AD8EF}|DashboardWS\\DashboardWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\dashboardws\\dashboardws\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{896FD67F-4258-4F43-A19D-A20CA10AD8EF}|DashboardWS\\DashboardWS.csproj|solutionrelative:dashboardws\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{896FD67F-4258-4F43-A19D-A20CA10AD8EF}|DashboardWS\\DashboardWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\dashboardws\\dashboardws\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{896FD67F-4258-4F43-A19D-A20CA10AD8EF}|DashboardWS\\DashboardWS.csproj|solutionrelative:dashboardws\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,16 +11,28 @@
       "RelativeMoniker": "D:0:0:{896FD67F-4258-4F43-A19D-A20CA10AD8EF}|DashboardWS\\DashboardWS.csproj|solutionrelative:dashboardws\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{896FD67F-4258-4F43-A19D-A20CA10AD8EF}|DashboardWS\\DashboardWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\dashboardws\\dashboardws\\viewmodels\\updateemployeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{896FD67F-4258-4F43-A19D-A20CA10AD8EF}|DashboardWS\\DashboardWS.csproj|solutionrelative:dashboardws\\viewmodels\\updateemployeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{896FD67F-4258-4F43-A19D-A20CA10AD8EF}|DashboardWS\\DashboardWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\dashboardws\\dashboardws\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{896FD67F-4258-4F43-A19D-A20CA10AD8EF}|DashboardWS\\DashboardWS.csproj|solutionrelative:dashboardws\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{896FD67F-4258-4F43-A19D-A20CA10AD8EF}|DashboardWS\\DashboardWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\dashboardws\\dashboardws\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{896FD67F-4258-4F43-A19D-A20CA10AD8EF}|DashboardWS\\DashboardWS.csproj|solutionrelative:dashboardws\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{896FD67F-4258-4F43-A19D-A20CA10AD8EF}|DashboardWS\\DashboardWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\dashboardws\\dashboardws\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{896FD67F-4258-4F43-A19D-A20CA10AD8EF}|DashboardWS\\DashboardWS.csproj|solutionrelative:dashboardws\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{896FD67F-4258-4F43-A19D-A20CA10AD8EF}|DashboardWS\\DashboardWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\dashboardws\\dashboardws\\controllers\\statusescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{896FD67F-4258-4F43-A19D-A20CA10AD8EF}|DashboardWS\\DashboardWS.csproj|solutionrelative:dashboardws\\controllers\\statusescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{896FD67F-4258-4F43-A19D-A20CA10AD8EF}|DashboardWS\\DashboardWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\dashboardws\\dashboardws\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{896FD67F-4258-4F43-A19D-A20CA10AD8EF}|DashboardWS\\DashboardWS.csproj|solutionrelative:dashboardws\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{896FD67F-4258-4F43-A19D-A20CA10AD8EF}|DashboardWS\\DashboardWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\dashboardws\\dashboardws\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{896FD67F-4258-4F43-A19D-A20CA10AD8EF}|DashboardWS\\DashboardWS.csproj|solutionrelative:dashboardws\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,48 +42,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Status.cs",
-              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\Models\\Status.cs",
-              "RelativeDocumentMoniker": "DashboardWS\\Models\\Status.cs",
-              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\Models\\Status.cs",
-              "RelativeToolTip": "DashboardWS\\Models\\Status.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T11:39:24.783Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "EmployeesController.cs",
               "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\Controllers\\EmployeesController.cs",
               "RelativeDocumentMoniker": "DashboardWS\\Controllers\\EmployeesController.cs",
               "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\Controllers\\EmployeesController.cs*",
               "RelativeToolTip": "DashboardWS\\Controllers\\EmployeesController.cs*",
-              "ViewState": "AgIAABEAAAAAAAAAAAAcwBoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T11:46:02.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StatusesController.cs",
-              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\Controllers\\StatusesController.cs",
-              "RelativeDocumentMoniker": "DashboardWS\\Controllers\\StatusesController.cs",
-              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\Controllers\\StatusesController.cs",
-              "RelativeToolTip": "DashboardWS\\Controllers\\StatusesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "DashboardWS\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\Models\\Employee.cs*",
+              "RelativeToolTip": "DashboardWS\\Models\\Employee.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T12:12:10.318Z"
+              "WhenOpened": "2025-09-10T11:27:49.244Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "UpdateEmployeeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\ViewModels\\UpdateEmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "DashboardWS\\ViewModels\\UpdateEmployeeViewModel.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\ViewModels\\UpdateEmployeeViewModel.cs",
+              "RelativeToolTip": "DashboardWS\\ViewModels\\UpdateEmployeeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T17:52:42.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "DashboardWS\\Data\\AppDbContext.cs",
@@ -91,20 +97,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\Program.cs",
-              "RelativeDocumentMoniker": "DashboardWS\\Program.cs",
-              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\Program.cs",
-              "RelativeToolTip": "DashboardWS\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\Models\\Status.cs",
+              "RelativeDocumentMoniker": "DashboardWS\\Models\\Status.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\Models\\Status.cs",
+              "RelativeToolTip": "DashboardWS\\Models\\Status.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T11:13:02.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T11:39:24.783Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\appsettings.json",
               "RelativeDocumentMoniker": "DashboardWS\\appsettings.json",
@@ -112,21 +117,31 @@
               "RelativeToolTip": "DashboardWS\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-10T11:17:40.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T11:17:40.75Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "DashboardWS\\Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\Models\\Employee.cs",
-              "RelativeToolTip": "DashboardWS\\Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "StatusesController.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\Controllers\\StatusesController.cs",
+              "RelativeDocumentMoniker": "DashboardWS\\Controllers\\StatusesController.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\Controllers\\StatusesController.cs",
+              "RelativeToolTip": "DashboardWS\\Controllers\\StatusesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T11:27:49.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T12:12:10.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\Program.cs",
+              "RelativeDocumentMoniker": "DashboardWS\\Program.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\DashboardWS\\DashboardWS\\Program.cs",
+              "RelativeToolTip": "DashboardWS\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T11:13:02.471Z"
             }
           ]
         }

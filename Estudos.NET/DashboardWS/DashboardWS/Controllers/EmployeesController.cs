@@ -45,6 +45,61 @@ namespace DashboardWS.Controllers
             return CreatedAtAction(nameof(GetEmployee), new { id = employee.Id }, employee);
         }
 
+
+        [HttpDelete("employees/{id}")]
+        public async Task<IActionResult> DeleteAsync(
+           [FromServices] AppDbContext context,
+           [FromRoute] int id)
+        {
+
+            var employee = await context.Employees.FirstOrDefaultAsync(x => x.Id == id);
+
+            try
+            {
+                context.Employees.Remove(employee);
+                await context.SaveChangesAsync();
+
+                return Ok();
+            }
+            catch (Exception e)
+            {
+                return BadRequest();
+            }
+
+        }
+
+        /*
+        [HttpPut("employees/{id}")]
+        public async Task<IActionResult> PutAsync(
+           [FromServices] AppDbContext context,
+           [FromRoute] int id)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest();
+
+            var employe = await context
+                .Employees
+                .FirstOrDefaultAsync(x => x.Id == id);
+
+            if (employe == null)
+                return NotFound();
+
+            try
+            {
+                employe.Name = model.Name;
+
+                context.Employees.Update(employe);
+                await context.SaveChangesAsync();
+
+                return Ok(employe);
+            }
+            catch (Exception e)
+            {
+                return BadRequest();
+            }
+
+        }
+        */
     }
 
 }

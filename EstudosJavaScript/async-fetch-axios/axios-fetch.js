@@ -53,3 +53,30 @@ axios.post('https://jsonplaceholder.typicode.com/posts', data)
     }).catch((error) => {
         console.log(error);
     })
+
+
+// Testando api do projeto 
+
+axios
+    .get("https://localhost:7166/api/Employees/")
+    .then((response) => {
+        console.log('Retorno PROJETOWS do AXIOS')
+        console.log(response.data)
+    }).catch((error) => {
+        console.log(error);
+    })
+
+
+const employee = {
+    name: "Index axios",
+    position: "Post com axios"
+}
+
+axios
+    .post('https://localhost:7166/api/Employees/', employee)
+    .then((response) => {
+        console.log('Retorno POST no projeto')
+        console.log(response.employee)
+    }).catch((error) => {
+        console.log(error);
+    })

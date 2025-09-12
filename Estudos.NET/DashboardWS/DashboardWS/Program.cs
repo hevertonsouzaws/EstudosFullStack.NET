@@ -3,20 +3,29 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Conexão com banco
+// Conexão com o banco de dados
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddDbContext<AppDbContext>();
+// Configuração do CORS para fazer requisiçõe com Vue local 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(
+        policyBuilder =>
+        {
+            policyBuilder.WithOrigins("http://localhost:8080",
+                                     "http://localhost:5173", "http://127.0.0.1:5500") // porta da aplicação Vue
+                                     .AllowAnyHeader()
+                                     .AllowAnyMethod();
+        });
+});
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configurar o pipeline de requisições HTTP.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -24,6 +33,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors();
 
 app.UseAuthorization();
 
