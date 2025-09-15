@@ -1,1 +1,95 @@
-[]
+[
+  {
+    "ContainingType": "StatusWS.Controllers.StatusTypeController",
+    "Method": "GetStatusTypes",
+    "RelativePath": "api/StatusType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[StatusWS.Dtos.StatusTypeDto, StatusWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StatusWS.Controllers.StatusTypeController",
+    "Method": "PostStatusType",
+    "RelativePath": "api/StatusType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "statusTypeDto",
+        "Type": "StatusWS.Dtos.StatusTypeCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "StatusWS.Dtos.StatusTypeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StatusWS.Controllers.StatusTypeController",
+    "Method": "GetStatusType",
+    "RelativePath": "api/StatusType/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "StatusWS.Dtos.StatusTypeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StatusWS.Controllers.StatusTypeController",
+    "Method": "PutStatusType",
+    "RelativePath": "api/StatusType/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "statusTypeDto",
+        "Type": "StatusWS.Dtos.StatusTypeCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

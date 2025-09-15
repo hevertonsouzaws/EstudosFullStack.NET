@@ -14,6 +14,19 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddDbContext<AppDbContext>();
 
+// Configuração do CORS para fazer requisições com Vue local 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(
+        policyBuilder =>
+        {
+            policyBuilder.WithOrigins("https://localhost:7208",
+                                     "http://localhost:5006", "http://127.0.0.1:5500") // porta da aplicação Vue
+                                     .AllowAnyHeader()
+                                     .AllowAnyMethod();
+        });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -24,6 +37,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors();
 
 app.UseAuthorization();
 

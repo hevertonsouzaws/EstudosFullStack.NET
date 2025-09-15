@@ -1,4 +1,4 @@
-// 1 - get fetch
+/* 1 - get fetch
 
 fetch('https://jsonplaceholder.typicode.com/todos')
     .then((response) => response.json())
@@ -53,9 +53,9 @@ axios.post('https://jsonplaceholder.typicode.com/posts', data)
     }).catch((error) => {
         console.log(error);
     })
+*/
 
-
-// Testando api do projeto 
+/* Teste api beta do projeto 
 
 axios
     .get("https://localhost:7166/api/Employees/")
@@ -80,3 +80,43 @@ axios
     }).catch((error) => {
         console.log(error);
     })
+*/
+
+axios
+    .get("https://localhost:7208/api/statustype/")
+    .then((response) => {
+        console.log('Retorno StatusWS do AXIOS')
+        console.log(response.data)
+    }).catch((error) => {
+        console.log(error);
+    })
+
+// Renderizando no html 
+
+axios.get("https://localhost:7208/api/statustype/")
+    .then((response) => {
+        const statusContainer = document.getElementById('status-container');
+        const statusData = response.data;
+        statusContainer.innerHTML = '';
+
+        statusData.forEach(status => {
+            const statusItem = document.createElement('div');
+            statusItem.classList.add('status-item');
+
+            const statusIcon = document.createElement('img');
+            statusIcon.src = status.iconUrl;
+            statusIcon.alt = status.description;
+
+            const statusDescription = document.createElement('p');
+            statusDescription.textContent = status.description;
+
+            statusItem.appendChild(statusIcon);
+            statusItem.appendChild(statusDescription);
+            statusContainer.appendChild(statusItem);
+        });
+    })
+    .catch((error) => {
+        console.error("erro ao buscar os dados da API:", error);
+        document.getElementById('status-container').innerHTML = '<p style="color: red;">API desligada. Não foi possível carregar os status.</p>';
+    });
+
