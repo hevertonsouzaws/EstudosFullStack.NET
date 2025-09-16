@@ -57,8 +57,7 @@ namespace StatusWS.Controllers
             var statusType = new StatusType
             {
                 Description = statusTypeDto.Description,
-                IconUrl = statusTypeDto.IconUrl
-
+                IconUrl = statusTypeDto.IconUrl 
             };
 
             try
@@ -70,7 +69,8 @@ namespace StatusWS.Controllers
                 {
                     StatusTypeId = statusType.StatusTypeId,
                     Description = statusType.Description,
-                    IconUrl = statusType.IconUrl,
+                    IconUrl = statusType.IconUrl ?? "https://tarefas.websupply.com.br/painel/assets/StatusGeolocalizacao-DxUl3vfK.png",
+
                 };
 
                 return CreatedAtAction(nameof(GetStatusType), new { id = createdStatusTypeDto.StatusTypeId }, createdStatusTypeDto);
@@ -94,7 +94,7 @@ namespace StatusWS.Controllers
             try
             {
                 statusType.Description = statusTypeDto.Description;
-                statusType.IconUrl = statusTypeDto.IconUrl;
+                statusType.IconUrl = statusTypeDto.IconUrl ?? "https://tarefas.websupply.com.br/painel/assets/StatusGeolocalizacao-DxUl3vfK.png";
 
                 await _context.SaveChangesAsync();
 
@@ -107,6 +107,31 @@ namespace StatusWS.Controllers
            
         }
 
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteStatus(int id)
+        {
+
+            var statusType = await _context.StatusTypes.FindAsync(id);
+
+            if (statusType == null)
+            {
+                return NotFound();
+            }
+
+            _context.StatusTypes.Remove(statusType);
+
+            try
+            {
+                await _context.SaveChangesAsync();
+
+                return NoContent();
+            }
+            catch (Exception e)
+            {
+                return BadRequest();
+            }
+
+        }
 
     }
 }

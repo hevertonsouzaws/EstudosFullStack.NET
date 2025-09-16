@@ -6,6 +6,6 @@ namespace StatusWS.Dtos
     {
         [Required]
         public string Description { get; set; }
-        public string IconUrl { get; set; } = "https://cdn-icons-png.flaticon.com/512/4785/4785876.png";
+        public string IconUrl { get; set; } = "https://tarefas.websupply.com.br/painel/assets/StatusGeolocalizacao-DxUl3vfK.png";
     }
 }
