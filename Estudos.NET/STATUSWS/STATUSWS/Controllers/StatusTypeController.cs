@@ -130,8 +130,6 @@ namespace StatusWS.Controllers
             {
                 return BadRequest();
             }
-
         }
-
     }
 }

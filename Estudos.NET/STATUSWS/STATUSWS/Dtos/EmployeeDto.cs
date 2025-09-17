@@ -6,7 +6,7 @@
         public string Name { get; set; }
         public string Position { get; set; }
         public string Photo { get; set; }
-        public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.UtcNow;
+        public DateTimeOffset CreatedAt { get; set; } 
         public bool IsActive { get; set; }
         public StatusDto? Status { get; set; }
     }

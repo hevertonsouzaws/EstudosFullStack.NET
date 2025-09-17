@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using StatusWS.Data;
 using StatusWS.Dtos;
 using StatusWS.Models;
+using StatusWS.Utils;
 
 namespace StatusWS.Controllers
 {
@@ -95,7 +96,7 @@ namespace StatusWS.Controllers
             {
                 CustomText = "Nenhum status definido",
                 StatusTypeId = 1,
-                UpdateAt = DateTime.UtcNow,
+                UpdateAt = DateTimeUtils.GetBrazilTime(),
             };
 
             var employee = new Employee
@@ -103,7 +104,7 @@ namespace StatusWS.Controllers
                 Name = employeeCreateDto.Name,
                 Position = employeeCreateDto.Position,
                 Photo = employeeCreateDto.Photo ?? "https://tarefas.websupply.com.br/painel/assets/userDefault-uMDAqLiz.png",
-                CreatedAt = DateTime.UtcNow,
+                CreatedAt = DateTimeUtils.GetBrazilTime(),
                 Status = defaultStatus
             };
 
@@ -165,7 +166,7 @@ namespace StatusWS.Controllers
             if (employeeUpdateDto.CustomText != null)
             {
                 employee.Status.CustomText = employeeUpdateDto.CustomText;
-                employee.Status.UpdateAt = DateTime.UtcNow;
+                employee.Status.UpdateAt = DateTimeUtils.GetBrazilTime();
             }
 
             if (employeeUpdateDto.Photo != null)
