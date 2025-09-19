@@ -139,6 +139,39 @@ namespace StatusWS.Controllers
             return CreatedAtAction(nameof(GetEmployees), new { id = employeeDto.EmployeeId }, employeeDto);
         }
 
+        [HttpGet("Inactive")]
+        public async Task<ActionResult<IEnumerable<EmployeeDto>>> GetInactiveEmployees()
+        {
+            var employees = await _context.Employees
+                .Where(e => !e.IsActive)
+                .Include(e => e.Status)
+                .ThenInclude(s => s.StatusType)
+                .Select(e => new EmployeeDto
+                {
+                    EmployeeId = e.EmployeeId,
+                    Name = e.Name,
+                    Position = e.Position,
+                    Photo = e.Photo,
+                    CreatedAt = e.CreatedAt,
+                    IsActive = e.IsActive,
+                    Status = new StatusDto
+                    {
+                        StatusId = e.Status.StatusId,
+                        CustomText = e.Status.CustomText,
+                        UpdateAt = e.Status.UpdateAt,
+                        StatusType = new StatusTypeDto
+                        {
+                            StatusTypeId = e.Status.StatusType.StatusTypeId,
+                            Description = e.Status.StatusType.Description,
+                            IconUrl = e.Status.StatusType.IconUrl,
+                        }
+                    }
+                })
+                .ToListAsync();
+
+            return Ok(employees);
+        }
+
         [HttpPut("{id}")]
         public async Task<IActionResult> PutEmployee(int id, EmployeeUpdateDto employeeUpdateDto)
         {
