@@ -547,6 +547,14 @@
       "EmployeeUpdateDto": {
         "type": "object",
         "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "position": {
+            "type": "string",
+            "nullable": true
+          },
           "photo": {
             "type": "string",
             "nullable": true

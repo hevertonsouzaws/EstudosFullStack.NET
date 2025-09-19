@@ -184,6 +184,23 @@ namespace StatusWS.Controllers
                 return NotFound();
             }
 
+
+            if (employeeUpdateDto.Name != null)
+            {
+                employee.Name = employeeUpdateDto.Name;
+            }
+
+
+            if (employeeUpdateDto.Position != null)
+            {
+                employee.Position = employeeUpdateDto.Position;
+            }
+
+            if (employeeUpdateDto.Photo != null)
+            {
+                employee.Photo = employeeUpdateDto.Photo;
+            }
+
             if (employeeUpdateDto.StatusId != null)
             {
                 employee.Status.StatusTypeId = employeeUpdateDto.StatusId.Value;
@@ -202,15 +219,11 @@ namespace StatusWS.Controllers
                 employee.Status.UpdateAt = DateTimeUtils.GetBrazilTime();
             }
 
-            if (employeeUpdateDto.Photo != null)
-            {
-                employee.Photo = employeeUpdateDto.Photo;
-            }
-
             if (employeeUpdateDto.IsActive != null)
             {
                 employee.IsActive = employeeUpdateDto.IsActive.Value;
             }
+
 
             await _context.SaveChangesAsync();
 
