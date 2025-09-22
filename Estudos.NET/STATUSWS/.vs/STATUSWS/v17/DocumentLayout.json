@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\statusws\\statusws\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|solutionrelative:statusws\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\statusws\\statusws\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|solutionrelative:statusws\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\statusws\\statusws\\dtos\\employeeupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|solutionrelative:statusws\\dtos\\employeeupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\statusws\\statusws\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|solutionrelative:statusws\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\statusws\\statusws\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5248FF3-5075-4F72-8E39-A590F45B4775}|STATUSWS\\StatusWS.csproj|solutionrelative:statusws\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\Program.cs",
+              "RelativeDocumentMoniker": "STATUSWS\\Program.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\Program.cs",
+              "RelativeToolTip": "STATUSWS\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T11:57:34.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "STATUSWS\\Models\\Employee.cs",
@@ -39,20 +56,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "STATUSWS\\Controllers\\EmployeeController.cs",
               "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "STATUSWS\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAcwMAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-19T14:35:58.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "EmployeeUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\Dtos\\EmployeeUpdateDto.cs",
               "RelativeDocumentMoniker": "STATUSWS\\Dtos\\EmployeeUpdateDto.cs",

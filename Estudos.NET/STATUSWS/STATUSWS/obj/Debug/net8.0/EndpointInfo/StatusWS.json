@@ -559,7 +559,7 @@
             "type": "string",
             "nullable": true
           },
-          "statusId": {
+          "statusTypeId": {
             "type": "integer",
             "format": "int32",
             "nullable": true

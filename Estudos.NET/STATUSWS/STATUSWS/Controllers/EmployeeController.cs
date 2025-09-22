@@ -94,7 +94,7 @@ namespace StatusWS.Controllers
         {
             var defaultStatus = new Status
             {
-                CustomText = "Nenhum status definido",
+                CustomText = "...",
                 StatusTypeId = 1,
                 UpdateAt = DateTimeUtils.GetBrazilTime(),
             };
@@ -201,13 +201,13 @@ namespace StatusWS.Controllers
                 employee.Photo = employeeUpdateDto.Photo;
             }
 
-            if (employeeUpdateDto.StatusId != null)
+            if (employeeUpdateDto.StatusTypeId != null)
             {
-                employee.Status.StatusTypeId = employeeUpdateDto.StatusId.Value;
+                employee.Status.StatusTypeId = employeeUpdateDto.StatusTypeId.Value;
                 employee.Status.UpdateAt = DateTime.UtcNow;
 
 
-                if (employeeUpdateDto.StatusId == 1)
+                if (employeeUpdateDto.StatusTypeId == 1)
                 {
                     employee.Status.CustomText = null;
                 }

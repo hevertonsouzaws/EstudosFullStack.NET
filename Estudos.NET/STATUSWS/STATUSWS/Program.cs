@@ -21,7 +21,7 @@ builder.Services.AddCors(options =>
         policyBuilder =>
         {
             policyBuilder.WithOrigins("https://localhost:7208",
-                                     "http://localhost:5006", "http://localhost:5174") // porta da aplicação Vue
+                                     "http://localhost:5006", "http://localhost:5173") // porta da aplicação Vue
                                      .AllowAnyHeader()
                                      .AllowAnyMethod();
         });
