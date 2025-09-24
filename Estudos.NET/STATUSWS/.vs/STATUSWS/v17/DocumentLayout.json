@@ -38,8 +38,7 @@
               "RelativeToolTip": "STATUSWS\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T11:57:34.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T11:57:34.279Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "STATUSWS\\Models\\Employee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T14:36:12.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-19T14:36:12.628Z"
             },
             {
               "$type": "Document",
@@ -62,7 +60,7 @@
               "RelativeDocumentMoniker": "STATUSWS\\Controllers\\EmployeeController.cs",
               "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\STATUSWS\\STATUSWS\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "STATUSWS\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAmwNwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-19T14:35:58.205Z",
               "EditorCaption": ""
@@ -77,8 +75,7 @@
               "RelativeToolTip": "STATUSWS\\Dtos\\EmployeeUpdateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T14:30:36.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-19T14:30:36.972Z"
             }
           ]
         }
