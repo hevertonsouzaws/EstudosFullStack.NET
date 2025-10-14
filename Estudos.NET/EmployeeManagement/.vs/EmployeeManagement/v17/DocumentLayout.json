@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\EmployeeManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E483B21-9A16-4CAB-958D-614FB031C07D}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\employeemanagement\\employeemanagement.infrastructure\\data\\employeemanagementdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E483B21-9A16-4CAB-958D-614FB031C07D}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|solutionrelative:employeemanagement.infrastructure\\data\\employeemanagementdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E483B21-9A16-4CAB-958D-614FB031C07D}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\employeemanagement\\employeemanagement.infrastructure\\data\\employeemanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E483B21-9A16-4CAB-958D-614FB031C07D}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|solutionrelative:employeemanagement.infrastructure\\data\\employeemanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5773E7F3-7BEC-4506-B7B5-055237C0D266}|EmployeeManagement.Api\\EmployeeManagement.Api.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\employeemanagement\\employeemanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5773E7F3-7BEC-4506-B7B5-055237C0D266}|EmployeeManagement.Api\\EmployeeManagement.Api.csproj|solutionrelative:employeemanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5773E7F3-7BEC-4506-B7B5-055237C0D266}|EmployeeManagement.Api\\EmployeeManagement.Api.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\employeemanagement\\employeemanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5773E7F3-7BEC-4506-B7B5-055237C0D266}|EmployeeManagement.Api\\EmployeeManagement.Api.csproj|solutionrelative:employeemanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5773E7F3-7BEC-4506-B7B5-055237C0D266}|EmployeeManagement.Api\\EmployeeManagement.Api.csproj|c:\\users\\74841\\source\\repos\\estudosfullstcak.net\\estudos.net\\employeemanagement\\employeemanagement.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5773E7F3-7BEC-4506-B7B5-055237C0D266}|EmployeeManagement.Api\\EmployeeManagement.Api.csproj|solutionrelative:employeemanagement.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeManagementDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Data\\EmployeeManagementDbContext.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Infrastructure\\Data\\EmployeeManagementDbContext.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Data\\EmployeeManagementDbContext.cs*",
+              "RelativeToolTip": "EmployeeManagement.Infrastructure\\Data\\EmployeeManagementDbContext.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T17:24:26.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\EmployeeManagement\\EmployeeManagement.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\EmployeeManagement\\EmployeeManagement.Api\\Middleware\\ExceptionHandlingMiddleware.cs*",
+              "RelativeToolTip": "EmployeeManagement.Api\\Middleware\\ExceptionHandlingMiddleware.cs*",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwAIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T17:20:01.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\EmployeeManagement\\EmployeeManagement.Api\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\EmployeeManagement\\EmployeeManagement.Api\\Program.cs*",
+              "RelativeToolTip": "EmployeeManagement.Api\\Program.cs*",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvxkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T17:14:37.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeManagementDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Data\\EmployeeManagementDbContextFactory.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Infrastructure\\Data\\EmployeeManagementDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Data\\EmployeeManagementDbContextFactory.cs*",
+              "RelativeToolTip": "EmployeeManagement.Infrastructure\\Data\\EmployeeManagementDbContextFactory.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T17:13:43.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\EmployeeManagement\\EmployeeManagement.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "EmployeeManagement.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\74841\\source\\repos\\EstudosFullStcak.NET\\Estudos.NET\\EmployeeManagement\\EmployeeManagement.Api\\appsettings.json",
+              "RelativeToolTip": "EmployeeManagement.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-06T17:03:14.88Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
