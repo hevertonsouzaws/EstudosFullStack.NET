@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Remaza.Visitas.Domain\Remaza.Visitas.Domain.csproj" />
+    <ProjectReference Include="..\Remaza.Visitas.Dtos\Remaza.Visitas.Dtos.csproj" />
+    <ProjectReference Include="..\Remaza.Visitas.Infrastructure\Remaza.Visitas.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

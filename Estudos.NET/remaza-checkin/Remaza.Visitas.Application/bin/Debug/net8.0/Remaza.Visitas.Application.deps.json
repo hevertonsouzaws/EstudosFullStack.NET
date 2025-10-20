@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Remaza.Visitas.Application/1.0.0": {
+        "dependencies": {
+          "Remaza.Visitas.Domain": "1.0.0",
+          "Remaza.Visitas.Dtos": "1.0.0"
+        },
+        "runtime": {
+          "Remaza.Visitas.Application.dll": {}
+        }
+      },
+      "Remaza.Visitas.Domain/1.0.0": {
+        "runtime": {
+          "Remaza.Visitas.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Remaza.Visitas.Dtos/1.0.0": {
+        "runtime": {
+          "Remaza.Visitas.Dtos.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Remaza.Visitas.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Remaza.Visitas.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Remaza.Visitas.Dtos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

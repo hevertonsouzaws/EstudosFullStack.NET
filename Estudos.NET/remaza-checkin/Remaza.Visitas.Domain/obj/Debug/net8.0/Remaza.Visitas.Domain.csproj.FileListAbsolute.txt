@@ -1,0 +1,12 @@
+C:\Users\74841\source\repos\EstudosFullStcak.NET\Estudos.NET\remaza-checkin\Remaza.Visitas.Domain\bin\Debug\net8.0\Remaza.Visitas.Domain.deps.json
+C:\Users\74841\source\repos\EstudosFullStcak.NET\Estudos.NET\remaza-checkin\Remaza.Visitas.Domain\bin\Debug\net8.0\Remaza.Visitas.Domain.dll
+C:\Users\74841\source\repos\EstudosFullStcak.NET\Estudos.NET\remaza-checkin\Remaza.Visitas.Domain\bin\Debug\net8.0\Remaza.Visitas.Domain.pdb
+C:\Users\74841\source\repos\EstudosFullStcak.NET\Estudos.NET\remaza-checkin\Remaza.Visitas.Domain\obj\Debug\net8.0\Remaza.Visitas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\74841\source\repos\EstudosFullStcak.NET\Estudos.NET\remaza-checkin\Remaza.Visitas.Domain\obj\Debug\net8.0\Remaza.Visitas.Domain.AssemblyInfoInputs.cache
+C:\Users\74841\source\repos\EstudosFullStcak.NET\Estudos.NET\remaza-checkin\Remaza.Visitas.Domain\obj\Debug\net8.0\Remaza.Visitas.Domain.AssemblyInfo.cs
+C:\Users\74841\source\repos\EstudosFullStcak.NET\Estudos.NET\remaza-checkin\Remaza.Visitas.Domain\obj\Debug\net8.0\Remaza.Visitas.Domain.csproj.CoreCompileInputs.cache
+C:\Users\74841\source\repos\EstudosFullStcak.NET\Estudos.NET\remaza-checkin\Remaza.Visitas.Domain\obj\Debug\net8.0\Remaza.Visitas.Domain.sourcelink.json
+C:\Users\74841\source\repos\EstudosFullStcak.NET\Estudos.NET\remaza-checkin\Remaza.Visitas.Domain\obj\Debug\net8.0\Remaza.Visitas.Domain.dll
+C:\Users\74841\source\repos\EstudosFullStcak.NET\Estudos.NET\remaza-checkin\Remaza.Visitas.Domain\obj\Debug\net8.0\refint\Remaza.Visitas.Domain.dll
+C:\Users\74841\source\repos\EstudosFullStcak.NET\Estudos.NET\remaza-checkin\Remaza.Visitas.Domain\obj\Debug\net8.0\Remaza.Visitas.Domain.pdb
+C:\Users\74841\source\repos\EstudosFullStcak.NET\Estudos.NET\remaza-checkin\Remaza.Visitas.Domain\obj\Debug\net8.0\ref\Remaza.Visitas.Domain.dll
