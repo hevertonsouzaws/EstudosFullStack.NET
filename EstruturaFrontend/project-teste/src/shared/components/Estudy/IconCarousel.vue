@@ -1,5 +1,4 @@
 <script setup lang="ts">
-// Define o contrato de props usando TypeScript
 interface Props {
   gifUrl: string;
   title: string;
@@ -18,7 +17,7 @@ const ITEM_WIDTH_PX = 208;
     <img
       :src="props.gifUrl"
       :alt="props.title"
-      class="w-24 h-24 object-contain mb-2"
+      class="w-24 h-24 object-contain mb-2 rounded-lg"
     />
     <p class="text-sm font-semibold text-gray-200 text-center">{{ props.title }}</p>
   </div>

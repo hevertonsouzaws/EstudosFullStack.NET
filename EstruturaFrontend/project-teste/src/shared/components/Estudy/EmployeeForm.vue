@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
-import { useEmployeeStore } from '@/shared/stores/EmployeeStore';
-import type { Employee } from '@/shared/types/Employee';
+import { useEmployeeStore } from '@/shared/stores/estudyEmployee';
+import type { Employee } from '@/shared/types/EstudyEmployee';
 
 const employeeStore = useEmployeeStore();
 

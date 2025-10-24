@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useEmployeeStore } from '@/shared/stores/EmployeeStore';
+import { useEmployeeStore } from '@/shared/stores/estudyEmployee';
 
 const employeeStore = useEmployeeStore();
 </script>

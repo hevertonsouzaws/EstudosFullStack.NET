@@ -2,10 +2,9 @@
 import { ref, onMounted, onUnmounted } from 'vue'; 
 import IconCarousel from './IconCarousel.vue';
 
-// 1. DADOS e REATIVIDADE
 const iconGifs = ref([
   { id: 1, title: 'Codando', url: 'https://cdn-icons-gif.flaticon.com/8722/8722699.gif' },
-  { id: 2, title: 'Ideia', url: 'https://cdn-icons-gif.flaticon.com/17091/17091713.gif' },
+  { id: 2, title: 'Ativo', url: 'https://cdn-icons-gif.flaticon.com/17091/17091713.gif' },
   { id: 3, title: 'Café', url: 'https://cdn-icons-gif.flaticon.com/17122/17122475.gif' },
   { id: 4, title: 'Revisão', url: 'https://cdn-icons-gif.flaticon.com/17122/17122378.gif' },
   { id: 5, title: 'Deploy', url: 'https://cdn-icons-gif.flaticon.com/15713/15713152.gif' },
@@ -50,7 +49,7 @@ onUnmounted(() => {
     }
 });
 
-// Pausa e Resume (melhorando o UX)
+// Pausa 
 const pauseAutoplay = () => {
     if (intervalId !== null) {
         clearInterval(intervalId);
@@ -68,7 +67,7 @@ const resumeAutoplay = () => {
 
 <template>
   <div class=" p-4 bg-gray-600 rounded-xl shadow-2xl">
-    <h3 class="text-2xl font-bold mb-4 text-gray-200">Carrossel de Ícones (Tecnologias)</h3>
+    <h3 class="text-2xl font-bold mb-4 text-gray-200">Carrossel de icones</h3>
 
     <div
       ref="carouselRef"
@@ -97,7 +96,6 @@ const resumeAutoplay = () => {
 </template>
 
 <style>
-/* ... (Seu CSS para esconder a barra de rolagem permanece o mesmo) ... */
 .hide-scrollbar::-webkit-scrollbar {
     display: none;
 }

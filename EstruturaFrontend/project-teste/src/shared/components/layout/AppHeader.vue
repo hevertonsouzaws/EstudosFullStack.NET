@@ -8,6 +8,12 @@
                 <router-link to="/estudy">
                     <i class="fi fi-rr-book text-xl"></i>
                 </router-link>
+                <router-link to="/statusws">
+                    <i class="fi fi-rr-dashboard text-xl"></i>
+                </router-link>
+                <router-link to="/loader">
+                    <i class="fi fi-rr-loading text-xl"></i>
+                </router-link>
             </div>
         </nav>
     </header>

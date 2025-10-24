@@ -17,7 +17,7 @@
       "@components/*": ["./src/shared/components/*"],
       "@helpers/*": ["./src/shared/helpers/*"],
       "@services/*": ["./src/shared/services/*"],
-      "@stores/*": ["./src/shared/stores/*"],
+      "@stores/*": ["./src/shared/stores/*"]
     },
     "module": "ESNext",
     "moduleResolution": "Bundler",

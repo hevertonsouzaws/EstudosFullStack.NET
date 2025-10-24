@@ -1,6 +1,6 @@
 import { ref } from "vue";
 import { defineStore } from "pinia";
-import type { Employee } from "../types/Employee";
+import type { Employee } from "../types/EstudyEmployee";
 
 export const useEmployeeStore = defineStore('employee', () => {
     const employees = ref<Employee[]>([]);
