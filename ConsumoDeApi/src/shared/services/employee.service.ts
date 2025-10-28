@@ -1,4 +1,4 @@
-import { api } from "./api.config";
+import { api } from "./config/api.config";
 import type { IEmployee } from "@/shared/types/employee.type";
 
 export async function fetchEmployees(): Promise<IEmployee[]> {
