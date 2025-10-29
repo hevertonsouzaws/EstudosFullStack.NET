@@ -23,18 +23,25 @@ function handlePositionChange(event: Event) {
 </script>
 
 <template>
-    <div>
-        <h1>Lista de Funcionários (Filtro Front-end)</h1>
-
-        <select :value="positionFilter" @change="handlePositionChange" class="filter-dropdown">
-            <option value="">-- Filtrar por Cargo (Todos) --</option>
-            <option v-for="position in uniquePositions" :key="position" :value="position">
-                {{ position }}
-            </option>
-        </select>
+    <div class="mt-10 py-2 p-2 w-[80%] m-auto">
+        <div class="flex w-full justify-center items-center gap-5 p-4 rounded-lg">
+            <select :value="positionFilter" @change="handlePositionChange"
+                class="bg-gray-900 cursor-pointer border border-blue-400 rounded-lg p-3 w-80 text-blue-500">
+                <option class="bg-gray-800" value="">Todos</option>
+                <div class="cursor-pointer">
+                    <option v-for="position in uniquePositions" :key="position" :value="position"
+                        class="text-gray-200 bg-gray-900">
+                        <p>{{ position }}</p>
+                    </option>
+                </div>
+            </select>
+            <div class="bg-gray-900 cursor-pointer border border-blue-400 rounded-lg py-2.5 w-80 text-center">
+                <p class="text-lg"><i class="fi fi-rr-user text-base p-2"></i>{{ filteredEmployees.length }}</p>
+            </div>
+        </div>
 
         <div v-if="isLoading">
-            <p>Carregando dados completos da API...</p>
+            <p>Carregando dados...</p>
         </div>
 
         <div v-else-if="error">
@@ -42,28 +49,23 @@ function handlePositionChange(event: Event) {
         </div>
 
         <div v-else>
-            <div class="employee-table mt-5 border-2 border-blue-900 rounded-xl py-2 p-4 max-w-7xl m-auto">
-                <div class="header-row">
-                    <span>Nome</span>
-                    <span>Cargo</span>
-                </div>
-                <ul>
+            <div class="mt-5 border-2 border-blue-900 rounded-xl py-3 p-2 max-w-full m-auto">
+                <ul class="flex flex-wrap gap-y-3 gap-4 items-center justify-right pl-5">
                     <li v-for="employee in filteredEmployees" :key="employee.employeeId"
-                        class="employee-item w-[50%] justify-between py-3 mt-2 mb-2 p-4 border-2 border-blue-900 rounded-lg text-gray-300 hover:text-white hover:border-blue-400 duration-100">
+                        class="min-w-[32%] py-3 p-4 border-2 border-blue-900 rounded-lg text-gray-300 hover:text-white hover:border-blue-400 duration-100">
 
-                        <div class="w-full">
+                        <div class="w-[full]">
                             <p><i class="fi fi-rr-user text-base p-2"></i>{{ employee.name }}</p>
+                            <p><i class="fi fi-rr-code-simple text-base p-2"></i>{{ employee.position }}</p>
                         </div>
 
-                        <div class="w-full">
-                            <p><i class="fi fi-rr-code-simple text-base p-2"></i>{{ employee.position }}</p>
+                        <div class="w-[full]">
+
                         </div>
                     </li>
                 </ul>
             </div>
-            <p class="mt-4">Total exibido: {{ filteredEmployees.length }}</p>
         </div>
-
 
     </div>
 </template>

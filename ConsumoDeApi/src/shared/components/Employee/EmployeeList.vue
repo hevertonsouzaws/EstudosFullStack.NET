@@ -1,6 +1,7 @@
 <template>
     <div class="p-2 max-w-7xl m-auto">
-        <div class="w-full text-center text-lg font-semibold flex justify-evenly p-5 border-2 border-blue-600 rounded-xl">
+        <div
+            class="w-full text-center text-lg font-semibold flex justify-evenly p-5 border-t-2 border-b-2 border-blue-600 rounded-xl">
 
             <div class="border border-gray-400 rounded-xl text-center w-40 h-20 flex flex-col justify-center">
                 <span><i class="fi fi-rr-user text-2xl p-2"></i></span>
@@ -12,7 +13,8 @@
                 <h1>{{ employeeStore.totalEmployees }}</h1>
             </div>
 
-            <div class="border border-gray-400 rounded-xl text-center w-40 h-20 flex flex-col justify-center hover:scale-105 hover:border-blue-400 duration-200 cursor-pointer">
+            <div
+                class="border border-gray-400 rounded-xl text-center w-40 h-20 flex flex-col justify-center hover:scale-105 hover:border-blue-400 duration-200 cursor-pointer">
                 <button @click="handleExportPDF
                 ">
                     <span><i class="fi fi-rr-file-pdf text-2xl p-2 hover:text-[28px] duration-300"></i></span>
@@ -53,29 +55,30 @@
                     </div>
                 </li>
             </ul>
+
+            <div class="py-5 p-2 max-w-7xl m-auto border-t-2 rounded-xl mt-10">
+                <p class="text-center">Galeria</p>
+                <div class="flex flex-wrap justify-center items-center gap-8 max-w-full m-auto p-10">
+                    <div v-for="employee in employeeStore.employees" :key="employee.employeeId"
+                        class="flex flex-col items-center cursor-pointer transition-transform transform hover:scale-105 duration-300 saturate-0 hover:saturate-100">
+                        <div
+                            class="w-[80px] h-[80px] rounded-full overflow-hidden border-2 border-transparent hover:border-red-500 transition-colors duration-300 ">
+                            <img :src="employee.photo" :alt="employee.name" class="w-full h-full object-cover ">
+                        </div>
+                    </div>
+                    <div v-for="employee in employeeStore.inactiveEmployees" :key="employee.employeeId"
+                        class="flex flex-col items-center cursor-pointer transition-transform transform hover:scale-105 duration-300 saturate-0 hover:saturate-100">
+                        <div
+                            class="w-[80px] h-[80px] rounded-full overflow-hidden border-2 border-transparent hover:border-red-500 transition-colors duration-300">
+                            <img :src="employee.photo" :alt="employee.name" class="w-full h-full object-cover ">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div v-if="employeeStore.totalEmployees > 0"
-        class="py-5 p-2 max-w-7xl m-auto border-2 border-blue-900 rounded-xl mt-10">
-        <p>Galeria</p>
-        <div class="flex flex-wrap justify-center items-center gap-10 max-w-full m-auto p-10">
-            <div v-for="employee in employeeStore.employees" :key="employee.employeeId"
-                class="flex flex-col items-center cursor-pointer transition-transform transform hover:scale-105 duration-300 saturate-0 hover:saturate-100">
-                <div
-                    class="w-[80px] h-[80px] rounded-full overflow-hidden border-2 border-transparent hover:border-red-500 transition-colors duration-300 ">
-                    <img :src="employee.photo" :alt="employee.name" class="w-full h-full object-cover ">
-                </div>
-            </div>
-            <div v-for="employee in employeeStore.inactiveEmployees" :key="employee.employeeId"
-                class="flex flex-col items-center cursor-pointer transition-transform transform hover:scale-105 duration-300 saturate-0 hover:saturate-100">
-                <div
-                    class="w-[80px] h-[80px] rounded-full overflow-hidden border-2 border-transparent hover:border-red-500 transition-colors duration-300">
-                    <img :src="employee.photo" :alt="employee.name" class="w-full h-full object-cover ">
-                </div>
-            </div>
-        </div>
-    </div>
+
 </template>
 
 <script setup lang="ts">
